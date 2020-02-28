@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "276659244518",
+    "firebase_url": "https://tokio-961ae.firebaseio.com",
+    "project_id": "tokio-961ae",
+    "storage_bucket": "tokio-961ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276659244518:android:22505ea798da65df1cda27",
+        "android_client_info": {
+          "package_name": "com.tokio.laundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276659244518-3345kmahcd6o9iifnk95uc3u6sqcmkj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tokio.laundry",
+            "certificate_hash": "a7c8c52b8405f9d6900260c6b2e6609f8d89a8ed"
+          }
+        },
+        {
+          "client_id": "276659244518-66icef6n9po66tg8lka02scaq130vnm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjhTKeN6XSOCzUTb-FhxeNjrR4rLwGPBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276659244518-66icef6n9po66tg8lka02scaq130vnm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

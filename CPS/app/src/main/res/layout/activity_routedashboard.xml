@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/ic_marker_route"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="CP Assesment"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:textSize="36dip"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_pipe_exposed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="4dp"
+            android:elevation="2dp"
+            android:visibility="gone"
+            android:foregroundGravity="center"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginBottom="30dp"
+            app:cardCornerRadius="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_valve"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pipa Ter-Ekspose"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="28dip"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_test_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:elevation="2dp"
+            android:layout_margin="4dp"
+            android:foregroundGravity="center"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            app:cardCornerRadius="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_map_location"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test Point"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="28dip"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_unduh_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:elevation="2dp"
+            android:layout_margin="4dp"
+            android:foregroundGravity="center"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            app:cardCornerRadius="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_report"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unduh Laporan"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="28dip"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
